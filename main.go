@@ -15,9 +15,6 @@ var db *sql.DB
 
 func main() {
 
-	//database.Initialize()
-	//db = database.DB
-
 	bootstrap.SetUpDB()
 	router = bootstrap.SetupRoute()
 
